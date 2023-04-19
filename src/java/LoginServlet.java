@@ -18,7 +18,7 @@ public class LoginServlet extends HttpServlet{
         if(user.equals("Denchev") && pass.equals("1234")) {
             writer.println("Sucessfull login");
         } else {
-        writer.println("Login failed");
+        writer.println("Login faileds");
         }
         }
     }
